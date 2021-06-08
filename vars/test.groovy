@@ -1,4 +1,4 @@
-def ad(valu1,value2) {
+def add(valu1,value2) {
         env.VALUE1 = value1 
         env.VALUE2 = value2 
         sh '''
