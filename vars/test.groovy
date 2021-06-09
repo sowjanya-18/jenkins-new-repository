@@ -3,7 +3,7 @@ def add(value1,value2) {
         env.VALUE2 = value2 
         sh '''
          VALUE=$(($VALUE1+$VALUE2))
-         echo "Displaying value of addition $VALUE"
+         echo "Displaying value of addition for $VALUE1 and $VALUE2 is $VALUE"
         '''
     }
 
