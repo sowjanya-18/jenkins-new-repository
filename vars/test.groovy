@@ -17,12 +17,12 @@ def multiply(value1,value2) {
         '''
     }
 
-def substraction(value1,value2) {
+def subtract(value1,value2) {
         env.VALUE1 = value1
         env.VALUE2 = value2
         sh '''
          VALUE=$(($VALUE1-$VALUE2)) 
-        echo "Displaying value of substarction of $VALUE1 and $VALUE2 is $VALUE"
+        echo "Displaying value of subtraction of $VALUE1 and $VALUE2 is $VALUE"
         '''
     }
 
