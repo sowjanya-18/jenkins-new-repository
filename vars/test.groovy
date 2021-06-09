@@ -17,7 +17,7 @@ def multiply(value1,value2) {
         '''
     }
 
-def subsraction(value1,value2) {
+def substraction(value1,value2) {
         env.VALUE1 = value1
         env.VALUE2 = value2
         sh '''
