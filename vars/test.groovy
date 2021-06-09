@@ -22,7 +22,8 @@ def substraction(value1,value2) {
         env.VALUE2 = value2
         sh '''
          VALUE=$(($VALUE1-$VALUE2)) 
-        echo "Displaying value of substarction of $VALUE1 and $VALUE2 IS $VALUE
+        echo "Displaying value of substarction of $VALUE1 and $VALUE2 is $VALUE"
+        '''
     }
 
 def hello() {
